@@ -31,7 +31,8 @@ const Footer: React.FC = () => {
           {/* Copyright */}
           <div className="pt-6 border-t border-gray-800 w-full text-center">
             <p className="text-gray-500">
-              © {new Date().getFullYear()} GeeksDesigns. All rights reserved.
+              © {new Date().getFullYear()} GeeksDesigns |{' '}
+              <a href="https://www.saiakashneela.com" target="_blank" rel="noopener noreferrer" className="hover:text-white">Sai Akash Neela</a>. All rights reserved.
             </p>
           </div>
         </div>
