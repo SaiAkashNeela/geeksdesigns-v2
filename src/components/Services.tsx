@@ -186,10 +186,14 @@ const Services: React.FC = () => {
         
         {/* Bottom CTA */}
         <div className="text-center mt-20">
-          <div className="inline-flex items-center gap-3 px-8 py-4 bg-white/80 backdrop-blur-sm rounded-full text-gray-700 font-medium border border-gray-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 cursor-pointer">
+          <button
+            type="button"
+            onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
+            className="inline-flex items-center gap-3 px-8 py-4 bg-white/80 backdrop-blur-sm rounded-full text-gray-700 font-medium border border-gray-200/50 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105"
+          >
             <span>Ready to get started?</span>
             <ArrowRight className="w-5 h-5 text-blue-500" />
-          </div>
+          </button>
         </div>
       </div>
     </section>
