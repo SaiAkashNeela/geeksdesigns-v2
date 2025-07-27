@@ -150,7 +150,7 @@ const Contact: React.FC = () => {
           <div className="mt-12 pt-8 border-t border-white/20 text-center">
             <div className="flex items-center justify-center gap-2 text-gray-300">
               <Mail className="w-5 h-5" />
-              <span>Or email us</span>
+              <span>Email us</span>
               <a 
                 href="mailto:support@geeksdesigns.com"
                 className="text-blue-400 hover:text-blue-300 font-medium transition-colors duration-300"
