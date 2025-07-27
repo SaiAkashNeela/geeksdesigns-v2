@@ -24,7 +24,7 @@ const Footer: React.FC = () => {
               to="/terms" 
               className="text-gray-400 hover:text-white transition-colors duration-300 font-medium"
             >
-              Terms
+              Terms & Refund Policy
             </Link>
           </div>
           
